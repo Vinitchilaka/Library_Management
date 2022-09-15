@@ -1,0 +1,19 @@
+Documentation for these Project.
+
+Summary:
+In this project i created an Library System with CRUD application.
+Where we can add a Book in the system by clicking an Add Book.
+Also we can see the Book List where we can EDIT and DELETE our book from management system.
+Pleses check all these.
+
+Technical Skills Used:
+Languages : Pyhton, Mysql.
+Frameworks : Django==3.2.15.
+Web Designing : HTML, CSS.
+Code Editors : Pycharm. (I can handle VS code also)
+Versioning Tool : GIT and GITHUB
+Operating System : Windows 10
+ORM Framework : Django.db
+
+these are my Documentation from these project.
+
