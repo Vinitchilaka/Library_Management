@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Book</title>
+</head>
+<body>
+    <h1 style="color:green;">ADD BOOK</h1><br>
+    <h3><a href="/">HOME</a></h3> <h3><a href="/list/"> BOOK LIST</a></h3>
+    <h3 style="color:red;">{{ result }}</h3>
+    <form action="/add/" method="POST">
+        {% csrf_token %}
+            Book ID = <input type="text" name="id" value="{{book.id}}"><br><br>
+            Book Name = <input type="text" name="book_name" value="{{book.book_name}}"><br><br>
+            Book Author = <input type="text" name="book_author" value="{{book.book_author}}"><br><br>
+            Book ISBN = <input type="text" name="book_isbn" value="{{book.book_isbn}}"><br><br>
+            Book Category = <input type="text" name="book_category" value="{{book.book_category}}"><br><br>
+            <input type="submit" name="ADD" style="color:purple;"><br><br>
+    </form>
+
+</body>
+</html>
